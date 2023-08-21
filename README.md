@@ -2,7 +2,7 @@
 ModifiedWeapons Mutator from Killing Floor 2.
 Some weapons are Edited/Based off "CustomWeapons" Mutator which was made by Fantasm (rat).
 
-#?mutator=ModifiedWeapons.ModifiedWeapons
+```?mutator=ModifiedWeapons.ModifiedWeapons
 
 [TIM.TIMut]
 bDebugLog=True
@@ -18,4 +18,4 @@ CustomItems=ModifiedWeapons.KFWeapDef_M14EBR_FA
 CustomItems=ModifiedWeapons.KFWeapDef_DualG18
 CustomItems=ModifiedWeapons.KFWeapDef_G18C
 CustomItems=ModifiedWeapons.KFWeapDef_G36C
-CustomItems=ModifiedWeapons.KFWeapDef_MosinNagant#
+CustomItems=ModifiedWeapons.KFWeapDef_MosinNagant```
