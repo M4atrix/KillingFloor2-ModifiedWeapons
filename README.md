@@ -18,7 +18,7 @@ CustomItems=ModifiedWeapons.KFWeapDef_M14EBR_FA
 CustomItems=ModifiedWeapons.KFWeapDef_DualG18
 CustomItems=ModifiedWeapons.KFWeapDef_G18C
 CustomItems=ModifiedWeapons.KFWeapDef_G36C
-CustomItems=ModifiedWeapons.KFWeapDef_MosinNagant```
+CustomItems=ModifiedWeapons.KFWeapDef_MosinNagant
 
 CTI
 
@@ -41,4 +41,4 @@ Item=ModifiedWeapons.KFWeapDef_M14EBR
 Item=ModifiedWeapons.KFWeapDef_M14EBR_IS
 Item=ModifiedWeapons.KFWeapDef_HRGCrossbow
 Item=ModifiedWeapons.KFWeapDef_Ak12
-Item=ModifiedWeapons.KFWeapDef_P90
+Item=ModifiedWeapons.KFWeapDef_P90 ```
