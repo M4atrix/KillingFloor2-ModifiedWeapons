@@ -39,7 +39,7 @@ DefaultProperties
 
 	BuyPrice=1200
 	AmmoPricePerMag=42
-	ImagePath="wep_ui_mosin_tex.UI_WeaponSelect_MosinNagant"
+	ImagePath="WEP_UI_P90_TEX.UI_WeaponSelect_FNP90"
 
 	IsPlayGoHidden=true;
 
