@@ -1,6 +1,6 @@
 # KillingFloor2-ModifiedWeapons
 ModifiedWeapons Mutator from Killing Floor 2.
-Some weapons are Edited/Based off "CustomWeapons" Mutator which was made by Fantasm (rat).
+Some weapons are Edited/Based off "CustomWeapons, ReinforcementPack" Mutator 
 
 ```?mutator=ModifiedWeapons.ModifiedWeapons
 
