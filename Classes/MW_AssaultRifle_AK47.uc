@@ -71,7 +71,7 @@ defaultproperties
 	FireInterval(DEFAULT_FIREMODE)=+0.1 // 500 RPM
 	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'KFDT_Ballistic_AK47'
 	Spread(DEFAULT_FIREMODE)=0.0085
-	InstantHitDamage(DEFAULT_FIREMODE)=56.0 //60
+	InstantHitDamage(DEFAULT_FIREMODE)=50.0 //56 //60
 	FireOffset=(X=32,Y=4.0,Z=-5)
 
 	// ALT_FIREMODE
@@ -111,8 +111,7 @@ defaultproperties
 
 	AssociatedPerkClasses(0)=class'KFPerk_Commando'
 
-	// Weapon Upgrade stat boosts
-	WeaponUpgrades[1]=(Stats=((Stat=EWUS_Damage0, Scale=1.25f), (Stat=EWUS_Damage1, Scale=1.25f), (Stat=EWUS_Weight, Add=0)))
+	WeaponUpgrades.Empty
 }
 
 

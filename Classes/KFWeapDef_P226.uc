@@ -30,8 +30,8 @@ DefaultProperties
 
 	EffectiveRange=50
 
-	UpgradePrice[0]=650
-	UpgradePrice[1]=3500
+	//UpgradePrice[0]=650
+	//UpgradePrice[1]=3500
 
 	UpgradeSellPrice[0]=510
 	UpgradeSellPrice[1]=2580

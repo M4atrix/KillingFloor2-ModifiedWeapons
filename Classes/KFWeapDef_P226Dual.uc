@@ -12,7 +12,7 @@ class KFWeapDef_P226Dual extends KFWeaponDefinition
 
 	static function string GetItemName()
 {
-	return "Dual SIG Sauer P226";
+	return "Dual SiG-P226";
 }
 
 static function string GetItemDescription()
@@ -30,9 +30,5 @@ DefaultProperties
 
 	EffectiveRange=50
 
-	UpgradePrice[0]=1000
-	UpgradePrice[1]=5000
-
-	UpgradeSellPrice[0]=900
-	UpgradeSellPrice[1]=4210
+	WeaponUpgrades.Empty
 }

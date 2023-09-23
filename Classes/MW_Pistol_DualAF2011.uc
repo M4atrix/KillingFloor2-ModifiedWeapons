@@ -57,17 +57,17 @@ DefaultProperties
 	
 	// DEFAULT_FIREMODE
 	WeaponFireTypes(DEFAULT_FIREMODE)=EWFT_InstantHit //EWFT_Projectile
-	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'CustomWeapons.Custom_KFDT_Ballistic_AF2011'
+	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'ModifiedWeapons.Custom_KFDT_Ballistic_AF2011'
 	
 	// ALTFIRE_FIREMODE
 	WeaponFireTypes(ALTFIRE_FIREMODE)=EWFT_InstantHit //EWFT_Projectile
-	InstantHitDamageTypes(ALTFIRE_FIREMODE)=class'CustomWeapons.Custom_KFDT_Ballistic_AF2011'
+	InstantHitDamageTypes(ALTFIRE_FIREMODE)=class'ModifiedWeapons.Custom_KFDT_Ballistic_AF2011'
 	
 	// Recoil
-	maxRecoilPitch=630 // vertical
+	maxRecoilPitch=630 // vertical //630
 	minRecoilPitch=630
-	maxRecoilYaw=310 // horizontal
-	minRecoilYaw=-310
+	maxRecoilYaw=400 // horizontal //310
+	minRecoilYaw=-400
 	
 	WeaponUpgrades.Empty
 }

@@ -43,7 +43,7 @@ defaultproperties
 	DOF_FG_MaxNearBlurSize=3.5
 
 	// Ammo
-	MagazineCapacity[0]=40
+	MagazineCapacity[0]=18 //40
 	SpareAmmoCapacity[0]=160
 	InitialSpareMags[0]=3
 	AmmoPickupScale[0]=1.0
@@ -51,10 +51,10 @@ defaultproperties
 	bReloadFromMagazine=true
 
 	// Recoil
-	maxRecoilPitch=290
-	minRecoilPitch=250
-	maxRecoilYaw=100
-	minRecoilYaw=-100
+	maxRecoilPitch=400
+	minRecoilPitch=400
+	maxRecoilYaw=150
+	minRecoilYaw=-150
 	RecoilRate=0.07
 	RecoilMaxYawLimit=500
 	RecoilMinYawLimit=65035
@@ -62,7 +62,7 @@ defaultproperties
 	RecoilMinPitchLimit=65035
 	RecoilISMaxYawLimit=50
 	RecoilISMinYawLimit=65485
-	RecoilISMaxPitchLimit=250
+	RecoilISMaxPitchLimit=500
 	RecoilISMinPitchLimit=65485
 	IronSightMeshFOVCompensationScale=1.35
 
@@ -70,8 +70,8 @@ defaultproperties
 	FiringStatesArray(DEFAULT_FIREMODE)=WeaponSingleFiring
 	WeaponFireTypes(DEFAULT_FIREMODE)=EWFT_InstantHit
 	WeaponProjectiles(DEFAULT_FIREMODE)=class'KFProj_Bullet_PistolP226'
-	FireInterval(DEFAULT_FIREMODE)=+0.0825 // about twice as fast as single
-	InstantHitDamage(DEFAULT_FIREMODE)=60.0
+	FireInterval(DEFAULT_FIREMODE)=+0.1 // about twice as fast as single //0.0825
+	InstantHitDamage(DEFAULT_FIREMODE)=90.0
 	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'KFDT_Ballistic_P226'
 	PenetrationPower(DEFAULT_FIREMODE)=1.0
 	Spread(DEFAULT_FIREMODE)=0.015
@@ -117,8 +117,6 @@ defaultproperties
 
     bHasFireLastAnims=true
 
-    // Weapon Upgrade stat boosts
-    WeaponUpgrades[1]=(Stats=((Stat=EWUS_Damage0, Scale=1.4f), (Stat=EWUS_Damage1, Scale=1.4f), (Stat=EWUS_Weight, Add=0)))
-	WeaponUpgrades[2]=(Stats=((Stat=EWUS_Damage0, Scale=2.0f), (Stat=EWUS_Damage1, Scale=2.0f), (Stat=EWUS_Weight, Add=0)))
+    WeaponUpgrades.Empty
 }
 

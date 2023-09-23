@@ -22,7 +22,7 @@ simulated event SetWeapon()
 
 defaultproperties
 {
-	ReloadspeedMod=1.0;
+	ReloadspeedMod=0.90; //10%
 	// Content
 	PackageKey="Dual_SW_500"
 	FirstPersonMeshName="WEP_1P_Dual_SW_500_MESH.Wep_1stP_Dual_SW_500_Rig"
@@ -306,5 +306,5 @@ defaultproperties
     // Weapon Upgrade stat boosts
 	//WeaponUpgrades[1]=(IncrementDamage=1.15f,IncrementWeight=2)
 
-	WeaponUpgrades[1]=(Stats=((Stat=EWUS_Damage0, Scale=1.15f), (Stat=EWUS_Damage1, Scale=1.15f), (Stat=EWUS_Weight, Add=2)))
+	//WeaponUpgrades[1]=(Stats=((Stat=EWUS_Damage0, Scale=1.15f), (Stat=EWUS_Damage1, Scale=1.15f), (Stat=EWUS_Weight, Add=2)))
 }

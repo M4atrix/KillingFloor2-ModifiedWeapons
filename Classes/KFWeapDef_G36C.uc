@@ -36,7 +36,7 @@ DefaultProperties
 
 	EffectiveRange=70
 
-	UpgradePrice[0]=1500
+	//UpgradePrice[0]=1500
 
 	UpgradeSellPrice[0]=1125
 
