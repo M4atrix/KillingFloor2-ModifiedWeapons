@@ -5,6 +5,11 @@ static function string GetItemName()
 	return Localize("KFWeap_AssaultRifle_G36C", "ItemName", "KFGameContent");
 }
 
+static function string GetItemDescription()
+{
+	return "Empty reload speed: 1.00 -> 1.20 (20% slower)";
+}
+
 static function string GetItemLocalization(string KeyName)
 {
 	if(KeyName == "ItemName")
@@ -19,10 +24,6 @@ static function string GetItemCategory()
 	return Localize("KFWeap_AssaultRifle_G36C", "ItemCategory", "KFGameContent");
 }
 
-static function string GetItemDescription()
-{
-	return Localize("KFWeap_AssaultRifle_G36C", "ItemDescription", "KFGameContent");
-}
 
 DefaultProperties
 {
@@ -35,10 +36,6 @@ DefaultProperties
 	IsPlayGoHidden=true;
 
 	EffectiveRange=70
-
-	//UpgradePrice[0]=1500
-
-	UpgradeSellPrice[0]=1125
 
 
 }

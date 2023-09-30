@@ -14,6 +14,15 @@ static function string GetItemName()
 	return Localize("KFWeap_Rifle_MosinNagant", "ItemName", "KFGameContent");
 }
 
+static function string GetItemDescription()
+{
+	return "Damage: 270 -> 350" $
+	"\nReload speed: 0.70x (30% faster)" $
+	"\n60 RPM -> 70 RPM" $
+	"\nEquip and Put down faster.";
+	
+}
+
 static function string GetItemLocalization(string KeyName)
 {
 	if(KeyName == "ItemName")
@@ -28,10 +37,6 @@ static function string GetItemCategory()
 	return Localize("KFWeap_Rifle_MosinNagant", "ItemCategory", "KFGameContent");
 }
 
-static function string GetItemDescription()
-{
-	return Localize("KFWeap_Rifle_MosinNagant", "ItemDescription", "KFGameContent");
-}
 
 DefaultProperties
 {
@@ -45,11 +50,6 @@ DefaultProperties
 
 	EffectiveRange=90
 
-	//UpgradePrice[0]=700
-	//UpgradePrice[1]=1500
-
-	UpgradeSellPrice[0]=525
-	UpgradeSellPrice[1]=1650
 
 	SharedUnlockId=SCU_MosinNagant
 }

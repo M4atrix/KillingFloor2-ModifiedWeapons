@@ -91,7 +91,7 @@ DefaultProperties
 	FiringStatesArray(DEFAULT_FIREMODE)=WeaponSingleFiring
 	WeaponFireTypes(DEFAULT_FIREMODE)=EWFT_InstantHit
 	WeaponProjectiles(DEFAULT_FIREMODE)=class'KFProj_Bullet_Winchester1894'
-	InstantHitDamage(DEFAULT_FIREMODE)=165 //180
+	InstantHitDamage(DEFAULT_FIREMODE)=180 //180 //165
 	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'KFDT_Ballistic_CenterfireMB464'
 	FireInterval(DEFAULT_FIREMODE)=0.4 //0.45
 	Spread(DEFAULT_FIREMODE)=0.007

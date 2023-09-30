@@ -17,7 +17,7 @@ class KFWeapDef_P226Dual extends KFWeaponDefinition
 
 static function string GetItemDescription()
 {
-	return "john woke";
+	return "Same stats as +2 1911s.";
 }
 
 DefaultProperties

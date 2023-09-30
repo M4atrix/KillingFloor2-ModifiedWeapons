@@ -14,19 +14,26 @@ class KFWeapDef_AK47 extends KFWeaponDefinition
 
 static function string GetItemDescription()
 {
-	return "BRRRRRA BRRRRA RA";
+	return "Damage: 56 -> 50";
+}
+
+static function string GetItemLocalization(string KeyName)
+{
+	return "AK-47";
+}
+
+static function string GetItemCategory()
+{
+	return "AK-47";
 }
 
 DefaultProperties
 {
 	WeaponClassPath="ModifiedWeapons.MW_AssaultRifle_AK47"
 
-	BuyPrice=1500 //1100
+	BuyPrice=1200 //1100
 	AmmoPricePerMag=50 //60
 	ImagePath="WEP_AK47_TEX.UI_AK47_TEX"
 
 	EffectiveRange=70
-
-	/*UpgradePrice[0]=1800
-	UpgradeSellPrice[0]=1270 */
 }

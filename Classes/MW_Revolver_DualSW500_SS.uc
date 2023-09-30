@@ -1,13 +1,14 @@
-class MW_Revolver_DualSW500 extends KFWeap_DualBase;
+class MW_Revolver_DualSW500_SS extends KFWeap_DualBase;
 
+const ReloadSpeedMultiplier = 0.9f;
 var private float ReloadspeedMod;
 
 simulated function float GetReloadRateScale()
 {
-	return Super.GetReloadRateScale() * ReloadspeedMod;
+	return Super.GetReloadRateScale() * ReloadSpeedMultiplier;
 }
 
-/*simulated event SetWeapon()
+simulated event SetWeapon()
 {
 	super.SetWeapon();
 	
@@ -18,7 +19,7 @@ simulated function float GetReloadRateScale()
 		MinFiringPutDownPct = 0.60; // 0.80
 		ReloadspeedMod = 0.80;
 	}
-} */
+}
 
 defaultproperties
 {
@@ -59,7 +60,7 @@ defaultproperties
 	DOF_FG_MaxNearBlurSize=3.5
 
 	// Ammo
-	MagazineCapacity[0]=10 // twice as much as single
+	MagazineCapacity[0]=12 // twice as much as single
 	SpareAmmoCapacity[0]=95
 	InitialSpareMags[0]=2
 	AmmoPickupScale[0]=1.0
@@ -126,8 +127,8 @@ defaultproperties
 	GroupPriority=50
 	WeaponSelectTexture=Texture2D'WEP_UI_Dual_SW_500_TEX.UI_WeaponSelect_DualSW500'
 	bIsBackupWeapon=false
-	AssociatedPerkClasses(0)=class'KFPerk_Gunslinger'
-	//AssociatedPerkClasses(1)=class'KFPerk_Sharpshooter'
+	AssociatedPerkClasses(0)=class'KFPerk_Sharpshooter'
+	
 
     bHasFireLastAnims=true
     BonesToLockOnEmpty=(RW_Hammer)
