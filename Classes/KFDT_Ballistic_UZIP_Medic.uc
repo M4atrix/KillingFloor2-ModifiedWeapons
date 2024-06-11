@@ -13,16 +13,16 @@ class KFDT_Ballistic_UZIP_Medic extends KFDT_Ballistic_Submachinegun
 	hidedropdown;
 
 /** Called when damage is dealt to apply additional damage type (e.g. Damage Over Time) */
-static function ApplySecondaryDamage( KFPawn Victim, int DamageTaken, optional Controller InstigatedBy )
+/*static function ApplySecondaryDamage( KFPawn Victim, int DamageTaken, optional Controller InstigatedBy )
 {
     local class<KFDamageType> ToxicDT;
 
-    ToxicDT = class'KFDT_Ballistic_Assault_Medic'.static.GetMedicToxicDmgType( DamageTaken, InstigatedBy );
+    //ToxicDT = class'KFDT_Ballistic_Assault_Medic'.static.GetMedicToxicDmgType( DamageTaken, InstigatedBy );
     if ( ToxicDT != None )
     {
         Victim.ApplyDamageOverTime(DamageTaken, InstigatedBy, ToxicDT);
     }
-}
+} */
 
 defaultproperties
 {

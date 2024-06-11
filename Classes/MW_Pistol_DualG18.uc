@@ -245,7 +245,7 @@ defaultproperties
 	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'KFDT_Ballistic_G18c' //DEFAULT MODE TYPE DAMAGE
 	FireInterval(DEFAULT_FIREMODE)=+0.05 ‬ // 1200 RPM //Default Firemode (Automatic) firerate //0.03
 	Spread(DEFAULT_FIREMODE)=0.015
-	InstantHitDamage(DEFAULT_FIREMODE)=38 //39 //41 // DEFAULT MODE DAMAGE
+	InstantHitDamage(DEFAULT_FIREMODE)=41 //39 //41 // DEFAULT MODE DAMAGE
 	PenetrationPower(DEFAULT_FIREMODE)=0.0 //Default Firemode (Automatic) & Altfire Firemode (Single Fire) penetration
 	PenetrationDamageReductionCurve(DEFAULT_FIREMODE)=(Points=((InVal=0.f,OutVal=0.f),(InVal=1.f, OutVal=1.f))) //Default Firemode (Automatic) & Altfire Firemode (Single Fire) penetration
 
@@ -257,7 +257,7 @@ defaultproperties
 	InstantHitDamageTypes(ALTFIRE_FIREMODE)=class'KFDT_Ballistic_G18c' //DEFAULT MODE TYPE DAMAGE
 	FireInterval(ALTFIRE_FIREMODE)=+0.05 ‬ // 1200 RPM //Default Firemode (Automatic) firerate //0.03
 	Spread(ALTFIRE_FIREMODE)=0.015
-	InstantHitDamage(ALTFIRE_FIREMODE)=39 //39 //41 // DEFAULT MODE DAMAGE //37
+	InstantHitDamage(ALTFIRE_FIREMODE)=41 //39 //41 // DEFAULT MODE DAMAGE //37
 	PenetrationPower(ALTFIRE_FIREMODE)=0.0 //Default Firemode (Automatic) & Altfire Firemode (Single Fire) penetration
 	PenetrationDamageReductionCurve(ALTFIRE_FIREMODE)=(Points=((InVal=0.f,OutVal=0.f),(InVal=1.f, OutVal=1.f))) //Default Firemode (Automatic) & Altfire Firemode (Single Fire) penetration
 

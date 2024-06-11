@@ -1,4 +1,4 @@
-class MW_AssaultRifle_FNFal_4x extends KFWeap_ScopedBase;
+class MW_AssaultRifle_FNFal_4x_CM extends KFWeap_ScopedBase;
 
 const ReloadSpeedMultiplier = 0.9f;
 var private bool bIsAltFire;
@@ -16,7 +16,7 @@ function bool DenyPickupQuery(class<Inventory> ItemClass, Actor Pickup)
 function SetOriginalValuesFromPickup(KFWeapon PickedUpWeapon)
 {
 	super.SetOriginalValuesFromPickup(PickedUpWeapon);
-	ClientSetAltFire(MW_AssaultRifle_FNFal_4x(PickedUpWeapon).bIsAltFire);
+	ClientSetAltFire(MW_AssaultRifle_FNFal_4x_CM(PickedUpWeapon).bIsAltFire);
 }
 
 simulated function AltFireMode()
@@ -86,13 +86,13 @@ DefaultProperties
 	IronSightPosition=(X=15,Y=0,Z=-0.01) //(X=7,Y=0,Z=0)
 	
 	// Inventory
-	InventorySize=9
+	InventorySize=8
 	GroupPriority=100
 	WeaponSelectTexture=Texture2D'WEP_UI_FNFAL_TEX.UI_WeaponSelect_FNFAL'
 	
 	// Recoil
-	maxRecoilPitch=210 // 300 //230
-	minRecoilPitch=210 // 300 //230
+	maxRecoilPitch=230 // 300 //230
+	minRecoilPitch=230 // 300 //230
 	maxRecoilYaw=140 // 150
 	minRecoilYaw=0
 	RecoilRate=0.09
@@ -115,7 +115,7 @@ DefaultProperties
 	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'KFDT_Ballistic_FNFal'
 	FireInterval(DEFAULT_FIREMODE)=+0.099
 	PenetrationPower(DEFAULT_FIREMODE)=2.0
-	InstantHitDamage(DEFAULT_FIREMODE)=71.0 //75
+	InstantHitDamage(DEFAULT_FIREMODE)=69.0 //75 //71
 	Spread(DEFAULT_FIREMODE)=0.007
 	
 	// ALTFIRE_FIREMODE
@@ -126,7 +126,7 @@ DefaultProperties
 	InstantHitDamageTypes(ALTFIRE_FIREMODE)=class'KFDT_Ballistic_FNFal'
 	FireInterval(ALTFIRE_FIREMODE)=+0.121
 	PenetrationPower(ALTFIRE_FIREMODE)=2.0
-	InstantHitDamage(ALTFIRE_FIREMODE)=71.0 //75
+	InstantHitDamage(ALTFIRE_FIREMODE)=69.0 //75 //71
 	Spread(ALTFIRE_FIREMODE)=0.007
 	
 	// default to alt fire mode
@@ -150,5 +150,5 @@ DefaultProperties
 	bHasIronSights=true
 	bHasFlashlight=false
 
-	AssociatedPerkClasses(0)=class'KFPerk_Sharpshooter'
+	AssociatedPerkClasses(0)=class'KFPerk_Commando'
 }

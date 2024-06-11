@@ -30,7 +30,10 @@ static function string GetItemCategory()
 
 static function string GetItemDescription()
 {
-	return Localize("KFWeap_Pistol_DualG18", "ItemDescription", "KFGameContent");
+	return "Damage: 39 -> 41" $
+	"\nTigther aim cone." $
+	"\nLess vertical recoil.";
+	
 }
 
 DefaultProperties
