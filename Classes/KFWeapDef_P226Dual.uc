@@ -17,14 +17,14 @@ class KFWeapDef_P226Dual extends KFWeaponDefinition
 
 static function string GetItemDescription()
 {
-	return "Same stats as +2 1911s.";
+	return "This weapon make me feels like i'm from certain Action Thriller movie.";
 }
 
 DefaultProperties
 {
 	WeaponClassPath="ModifiedWeapons.MW_Pistol_DualP226"
 
-	BuyPrice=1500
+	BuyPrice=2000
 	AmmoPricePerMag=40
 	ImagePath="WEP_P226_TEX.UI_DUAL_P226_TEX"
 

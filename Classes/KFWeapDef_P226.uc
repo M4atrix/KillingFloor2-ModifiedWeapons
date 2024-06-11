@@ -24,7 +24,7 @@ DefaultProperties
 {
 	WeaponClassPath="ModifiedWeapons.MW_Pistol_P226"
 
-	BuyPrice=500
+	BuyPrice=1000 //500
 	AmmoPricePerMag=20
 	ImagePath="WEP_P226_TEX.UI_P226_TEX"
 

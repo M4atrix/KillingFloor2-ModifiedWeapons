@@ -75,7 +75,7 @@ defaultproperties
 
 	// BASH_FIREMODE
 	InstantHitDamageTypes(BASH_FIREMODE)=class'KFDT_Bludgeon_P226'
-	InstantHitDamage(BASH_FIREMODE)=22
+	InstantHitDamage(BASH_FIREMODE)=24 //22
 
 	// Fire Effects
 	WeaponFireSnd(DEFAULT_FIREMODE)=(DefaultCue=AkEvent'WW_WEP_Mac_10.Play_Mac_10_Fire_3P_Single', FirstPersonCue=AkEvent'WW_WEP_Mac_10.Play_Mac_10_Fire_1P_Single')

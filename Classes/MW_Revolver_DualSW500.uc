@@ -7,22 +7,22 @@ simulated function float GetReloadRateScale()
 	return Super.GetReloadRateScale() * ReloadspeedMod;
 }
 
-/*simulated event SetWeapon()
+simulated event SetWeapon()
 {
 	super.SetWeapon();
 	
-	if(GetPerk().class == class'KFPerk_Sharpshooter')
+	if(GetPerk().class == class'KFPerk_Gunslinger')
 	{
 		EquipTime = 0.25; // 0.45
 		PutDownTime = 0.25; // 0.33
 		MinFiringPutDownPct = 0.60; // 0.80
-		ReloadspeedMod = 0.80;
+		ReloadspeedMod = 0.80; //0.80 20%
 	}
-} */
+} 
 
 defaultproperties
 {
-	ReloadspeedMod=0.90; //10%
+	ReloadspeedMod=1.0;
 	// Content
 	PackageKey="Dual_SW_500"
 	FirstPersonMeshName="WEP_1P_Dual_SW_500_MESH.Wep_1stP_Dual_SW_500_Rig"
@@ -67,8 +67,8 @@ defaultproperties
 	bReloadFromMagazine=true
 
 	// Recoil
-	maxRecoilPitch=850
-	minRecoilPitch=750
+	maxRecoilPitch=800 //850
+	minRecoilPitch=800 //750
 	maxRecoilYaw=150
 	minRecoilYaw=-150
 	RecoilRate=0.1

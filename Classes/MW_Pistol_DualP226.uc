@@ -44,7 +44,7 @@ defaultproperties
 
 	// Ammo
 	MagazineCapacity[0]=18 //40
-	SpareAmmoCapacity[0]=160
+	SpareAmmoCapacity[0]=260 //160
 	InitialSpareMags[0]=3
 	AmmoPickupScale[0]=1.0
 	bCanBeReloaded=true
@@ -70,7 +70,7 @@ defaultproperties
 	FiringStatesArray(DEFAULT_FIREMODE)=WeaponSingleFiring
 	WeaponFireTypes(DEFAULT_FIREMODE)=EWFT_InstantHit
 	WeaponProjectiles(DEFAULT_FIREMODE)=class'KFProj_Bullet_PistolP226'
-	FireInterval(DEFAULT_FIREMODE)=+0.1 // about twice as fast as single //0.0825
+	FireInterval(DEFAULT_FIREMODE)=+0.0825 // about twice as fast as single //c //0.1
 	InstantHitDamage(DEFAULT_FIREMODE)=90.0
 	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'KFDT_Ballistic_P226'
 	PenetrationPower(DEFAULT_FIREMODE)=1.0

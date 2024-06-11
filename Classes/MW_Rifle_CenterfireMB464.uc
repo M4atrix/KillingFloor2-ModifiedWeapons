@@ -91,7 +91,7 @@ DefaultProperties
 	FiringStatesArray(DEFAULT_FIREMODE)=WeaponSingleFiring
 	WeaponFireTypes(DEFAULT_FIREMODE)=EWFT_InstantHit
 	WeaponProjectiles(DEFAULT_FIREMODE)=class'KFProj_Bullet_Winchester1894'
-	InstantHitDamage(DEFAULT_FIREMODE)=180 //180 //165
+	InstantHitDamage(DEFAULT_FIREMODE)=165 //180 //165
 	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'KFDT_Ballistic_CenterfireMB464'
 	FireInterval(DEFAULT_FIREMODE)=0.4 //0.45
 	Spread(DEFAULT_FIREMODE)=0.007
@@ -128,6 +128,4 @@ DefaultProperties
 	//WeaponUpgrades[3]=(IncrementDamage=1.45f,IncrementWeight=3)
 
 	WeaponUpgrades[1]=(Stats=((Stat=EWUS_Damage0, Scale=1.15f), (Stat=EWUS_Weight, Add=1)))
-	WeaponUpgrades[2]=(Stats=((Stat=EWUS_Damage0, Scale=1.3f), (Stat=EWUS_Weight, Add=2)))
-	WeaponUpgrades[3]=(Stats=((Stat=EWUS_Damage0, Scale=1.45f), (Stat=EWUS_Weight, Add=3)))
 }

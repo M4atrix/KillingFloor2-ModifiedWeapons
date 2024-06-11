@@ -35,4 +35,8 @@ DefaultProperties
 	ImagePath="WEP_UI_Centerfire_TEX.UI_WeaponSelect_Centerfire"
 	
 	EffectiveRange=70
+
+	UpgradePrice[0]=600
+
+	UpgradeSellPrice[0]=450
 }

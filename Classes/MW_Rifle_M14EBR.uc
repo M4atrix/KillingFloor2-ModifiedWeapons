@@ -145,7 +145,8 @@ DefaultProperties
 	minRecoilPitch=220 // 200
 	
 	// DEFAULT_FIREMODE
-	InstantHitDamage(DEFAULT_FIREMODE)=90.0 //80
+	InstantHitDamage(DEFAULT_FIREMODE)=80.0 //80 //90
 	
-	WeaponUpgrades.Empty
+	//WeaponUpgrades.Empty
+	WeaponUpgrades[1]=(Stats=((Stat=EWUS_Damage0, Scale=1.15f), (Stat=EWUS_Weight, Add=1)))
 }

@@ -42,7 +42,7 @@ DefaultProperties
 {
 	WeaponClassPath="ModifiedWeapons.MW_Rifle_MosinNagant"
 
-	BuyPrice=1200
+	BuyPrice=1400 //1200
 	AmmoPricePerMag=42
 	ImagePath="wep_ui_mosin_tex.UI_WeaponSelect_MosinNagant"
 

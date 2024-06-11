@@ -23,7 +23,7 @@ simulated event SetWeapon()
 
 defaultproperties
 {
-	ReloadspeedMod=0.90; //10%
+	ReloadspeedMod=1.0; 
 	// Content
 	PackageKey="Dual_SW_500"
 	FirstPersonMeshName="WEP_1P_Dual_SW_500_MESH.Wep_1stP_Dual_SW_500_Rig"
@@ -48,7 +48,7 @@ defaultproperties
 	bCanThrow=true
 	bDropOnDeath=true
 
-	SingleClass=class'MW_Revolver_SW500'
+	SingleClass=class'MW_Revolver_SW500_SS'
 
 	// FOV
 	MeshFOV=60

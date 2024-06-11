@@ -8,7 +8,7 @@ static function string GetItemName()
 
 static function string GetItemDescription()
 {
-	return "*Damage: 80 -> 90";
+	return "*Fixed recoil";
 }
 
 static function string GetItemLocalization(string KeyName)
@@ -32,4 +32,8 @@ DefaultProperties
 	AmmoPricePerMag=60 //53
 	ImagePath="WEP_UI_M14EBR_TEX.UI_WeaponSelect_SM14-EBR"
 	EffectiveRange=90
+
+	UpgradePrice[0]=700
+
+	UpgradeSellPrice[0]=525
 }

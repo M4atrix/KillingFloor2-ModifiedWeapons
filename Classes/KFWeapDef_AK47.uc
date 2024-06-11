@@ -31,7 +31,7 @@ DefaultProperties
 {
 	WeaponClassPath="ModifiedWeapons.MW_AssaultRifle_AK47"
 
-	BuyPrice=1200 //1100
+	BuyPrice=900 //1100 //1200
 	AmmoPricePerMag=50 //60
 	ImagePath="WEP_AK47_TEX.UI_AK47_TEX"
 
