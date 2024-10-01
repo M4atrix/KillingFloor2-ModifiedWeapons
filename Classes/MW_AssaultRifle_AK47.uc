@@ -81,7 +81,7 @@ defaultproperties
 	WeaponProjectiles(ALTFIRE_FIREMODE)=class'KFProj_Bullet_AssaultRifle'
 	FireInterval(ALTFIRE_FIREMODE)=+0.1 // 1000 RPM
 	InstantHitDamageTypes(ALTFIRE_FIREMODE)=class'KFDT_Ballistic_AK47'
-	InstantHitDamage(ALTFIRE_FIREMODE)=56.0 //60
+	InstantHitDamage(ALTFIRE_FIREMODE)=50.0 //60
 	Spread(ALTFIRE_FIREMODE)=0.0085
 
 	// BASH_FIREMODE

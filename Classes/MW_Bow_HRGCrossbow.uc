@@ -40,9 +40,11 @@ simulated function bool HasAnyAmmo()
 DefaultProperties
 {
 	
+
 	// Inventory
+	InventoryGroup=IG_Secondary
 	InventorySize=6 //7
-	GroupPriority=50
+	GroupPriority=35 //50
 	WeaponSelectTexture=Texture2D'WEP_UI_Crossbow_TEX.UI_WeaponSelect_Crossbow'
 	SecondaryAmmoTexture=Texture2D'UI_SecondaryAmmo_TEX.MedicDarts'
 	

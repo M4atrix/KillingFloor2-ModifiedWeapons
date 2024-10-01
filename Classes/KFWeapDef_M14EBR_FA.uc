@@ -9,7 +9,7 @@ static function string GetItemName()
 
 static function string GetItemDescription()
 {
-    return "Real Life Accurate M14";
+    return "=>Kendrick's M14";
     // $ "\n=> ADS Vertical recoil increased by 95(30%)"
 }
 
