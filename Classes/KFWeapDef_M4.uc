@@ -45,7 +45,7 @@ DefaultProperties
 	WeaponClassPath="ModifiedWeapons.MW_Shotgun_M4"
 
 	BuyPrice=1500
-	AmmoPricePerMag=38 //40
+	AmmoPricePerMag=31 //40 //38
 	ImagePath="ui_weaponselect_tex.UI_WeaponSelect_Benelli"
 
 	EffectiveRange=35
