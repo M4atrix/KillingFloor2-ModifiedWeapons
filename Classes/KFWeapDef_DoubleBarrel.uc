@@ -40,7 +40,7 @@ DefaultProperties
 	WeaponClassPath="ModifiedWeapons.MW_Shotgun_DoubleBarrel"
 
 	BuyPrice=1200 //650
-	AmmoPricePerMag=14 //11
+	AmmoPricePerMag=10 //11 //14
 	ImagePath="ui_weaponselect_tex.UI_WeaponSelect_DBShotgun"
 
 	EffectiveRange=15
