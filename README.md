@@ -1,5 +1,5 @@
 # KillingFloor2-ModifiedWeapons
-ModifiedWeapons Mutator from Killing Floor 2.
+ModifiedWeapons Mutator for Killing Floor 2.
 Some weapons are Edited/Based off "CustomWeapons, ReinforcementPack" Mutator 
 
 ```?mutator=ModifiedWeapons.ModifiedWeapons
