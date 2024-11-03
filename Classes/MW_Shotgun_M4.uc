@@ -67,7 +67,7 @@ defaultproperties
 	InstantHitDamage(DEFAULT_FIREMODE)=35.0 //28 //30
 	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'Custom_KFDT_Ballistic_M4Shotgun'
 	PenetrationPower(DEFAULT_FIREMODE)=1.75 //2
-	FireInterval(DEFAULT_FIREMODE)=0.3 // 265 RPM //0.225
+	FireInterval(DEFAULT_FIREMODE)=0.2  // 265 RPM //0.225 //0.3
 	Spread(DEFAULT_FIREMODE)=0.19
 	FireOffset=(X=30,Y=5,Z=-4)
 	// Shotgun

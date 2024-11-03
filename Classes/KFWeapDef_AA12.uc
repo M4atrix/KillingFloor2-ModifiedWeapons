@@ -39,7 +39,7 @@ DefaultProperties
 	WeaponClassPath="ModifiedWeapons.MW_Shotgun_AA12"
 
 	BuyPrice=1500
-	AmmoPricePerMag=110 //110 //82
+	AmmoPricePerMag=92 //110 //82
 	ImagePath="ui_weaponselect_tex.UI_WeaponSelect_AA12"
 
 	EffectiveRange=30

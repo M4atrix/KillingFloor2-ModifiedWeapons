@@ -27,8 +27,8 @@ DefaultProperties
 {
 	WeaponClassPath="ModifiedWeapons.MW_AutoMag"
 
-	BuyPrice=7500
-	AmmoPricePerMag=67
+	BuyPrice=9500 //7500
+	AmmoPricePerMag=81 //67
 	ImagePath="WEP_UI_AutoMag_TEX.automag_ui"
 
 	EffectiveRange=50
