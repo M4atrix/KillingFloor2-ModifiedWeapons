@@ -37,7 +37,7 @@ DefaultProperties
 {
 	WeaponClassPath="ModifiedWeapons.MW_SMG_P90"
 
-	BuyPrice=1200
+	BuyPrice=1100
 	AmmoPricePerMag=42
 	ImagePath="WEP_UI_P90_TEX.UI_WeaponSelect_FNP90"
 
@@ -45,11 +45,11 @@ DefaultProperties
 
 	EffectiveRange=50
 
-	UpgradePrice[0]=1100
-	UpgradePrice[1]=1500
+	//UpgradePrice[0]=1100
+	//UpgradePrice[1]=1500
 
-	UpgradeSellPrice[0]=525
-	UpgradeSellPrice[1]=1650
+	//UpgradeSellPrice[0]=525
+	//UpgradeSellPrice[1]=1650
 
 	
 }

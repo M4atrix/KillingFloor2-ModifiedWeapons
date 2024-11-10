@@ -65,7 +65,7 @@ defaultproperties
 	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'Custom_KFDT_Ballistic_P90'
 	FireInterval(DEFAULT_FIREMODE)=+.07 // 900 RPM
 	Spread(DEFAULT_FIREMODE)=0.015
-	InstantHitDamage(DEFAULT_FIREMODE)=30
+	InstantHitDamage(DEFAULT_FIREMODE)=40 //30
 	FireOffset=(X=30,Y=4.5,Z=-5)
 
 	// ALT_FIREMODE
@@ -75,7 +75,7 @@ defaultproperties
 	WeaponProjectiles(ALTFIRE_FIREMODE)=class'KFProj_Bullet_AssaultRifle'
 	InstantHitDamageTypes(ALTFIRE_FIREMODE)=class'Custom_KFDT_Ballistic_P90'
 	FireInterval(ALTFIRE_FIREMODE)=+0.1
-	InstantHitDamage(ALTFIRE_FIREMODE)=30
+	InstantHitDamage(ALTFIRE_FIREMODE)=40
 	Spread(ALTFIRE_FIREMODE)=0.015
 
 	// BASH_FIREMODE
@@ -101,12 +101,12 @@ defaultproperties
 	bHasFlashlight=true
 
 	AssociatedPerkClasses(0)=class'KFPerk_Swat'
-	AssociatedPerkClasses(1)=class'KFPerk_Commando'
+	//AssociatedPerkClasses(1)=class'KFPerk_Commando'
 
 	// Weapon Upgrade stat boosts
 	//WeaponUpgrades[1]=(IncrementDamage=1.14f,IncrementWeight=1)
 	//WeaponUpgrades[2]=(IncrementDamage=1.28f,IncrementWeight=2)
 
-	WeaponUpgrades[1]=(Stats=((Stat=EWUS_Damage0, Scale=1.14f), (Stat=EWUS_Damage1, Scale=1.14f), (Stat=EWUS_Weight, Add=1)))
-	WeaponUpgrades[2]=(Stats=((Stat=EWUS_Damage0, Scale=1.28f), (Stat=EWUS_Damage1, Scale=1.28f), (Stat=EWUS_Weight, Add=2)))
+	//WeaponUpgrades[1]=(Stats=((Stat=EWUS_Damage0, Scale=1.14f), (Stat=EWUS_Damage1, Scale=1.14f), (Stat=EWUS_Weight, Add=1)))
+	//WeaponUpgrades[2]=(Stats=((Stat=EWUS_Damage0, Scale=1.28f), (Stat=EWUS_Damage1, Scale=1.28f), (Stat=EWUS_Weight, Add=2)))
 }

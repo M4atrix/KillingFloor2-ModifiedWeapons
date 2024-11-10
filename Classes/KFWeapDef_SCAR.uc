@@ -28,7 +28,7 @@ static function string GetItemDescription()
 DefaultProperties
 {
 	WeaponClassPath="ModifiedWeapons.MW_AssaultRifle_SCAR"
-	BuyPrice=1700
+	BuyPrice=3000
 	AmmoPricePerMag=33
 	ImagePath="ui_weaponselect_tex.UI_WeaponSelect_SCAR"
 	EffectiveRange=70

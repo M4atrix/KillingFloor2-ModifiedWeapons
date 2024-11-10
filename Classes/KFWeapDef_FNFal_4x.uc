@@ -32,7 +32,7 @@ static function string GetItemCategory()
 DefaultProperties
 {
 	WeaponClassPath="ModifiedWeapons.MW_AssaultRifle_FNFal_4x"
-	BuyPrice=1500
+	BuyPrice=1700
 	AmmoPricePerMag=47
 	ImagePath="WEP_UI_FNFAL_TEX.UI_WeaponSelect_FNFAL"
 	EffectiveRange=70

@@ -19,8 +19,9 @@ defaultproperties
 	KDeathUpKick=-300
 	KDeathVel=100
 
-	StumblePower=15
+	StumblePower=0
 	GunHitPower=15
+	StunPower=8 //15 //40 //8
 
 
 	WeaponDef=class'KFWeapDef_P90'

@@ -88,8 +88,8 @@ DefaultProperties
 	bReloadFromMagazine=true
 	
 	// Recoil
-	maxRecoilPitch=170 //165 //185
-	minRecoilPitch=170 // 125
+	maxRecoilPitch=190 //165 //185
+	minRecoilPitch=190 // 125
 	maxRecoilYaw=145
 	minRecoilYaw=-125
 	RecoilRate=0.09
@@ -110,11 +110,11 @@ DefaultProperties
 	
 	// Content
 	PackageKey="FNFAL_CM"
-	FirstPersonMeshName="FNFAL_CM_MESH_2x.WEP_1stP_FNFAL_Rig"
+	FirstPersonMeshName="WEP_1P_FalCM_MESH.WEP_1stP_FNFAL_CM_Rig"
 	FirstPersonAnimSetNames(0)="WEP_1P_FNFAL_ANIM.Wep_1stP_FNFAL_Anim"
-	PickupMeshName="WEP_3P_FNFAL_MESH.WEP_3rdP_FNFAL_Pickup"
-	AttachmentArchetypeName="WEP_FNFAL_ARCH.Wep_FNFAL_3P"
-	MuzzleFlashTemplateName="WEP_FNFAL_ARCH.Wep_FNFAL_MuzzleFlash" //NEED To REPLACE
+	PickupMeshName="WEP_3P_FalCM_MESH.WEP_3rdP_FNFAL_CM_Pickup"
+	AttachmentArchetypeName="WEP_FalCM_ARCH.Wep_FNFAL_CM_3P"
+	MuzzleFlashTemplateName="WEP_FalCM_ARCH.Wep_FNFAL_MuzzleFlash" //NEED To REPLACE
 	
 	// default to alt fire mode
 	bUseAltFireMode=false

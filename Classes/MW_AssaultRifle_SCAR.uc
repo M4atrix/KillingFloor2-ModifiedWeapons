@@ -41,11 +41,11 @@ DefaultProperties
 	minRecoilPitch=150 // 125
 	
 	// DEFAULT_FIREMODE
-	FireInterval(DEFAULT_FIREMODE)=+0.096 // 625 RPM
+	FireInterval(DEFAULT_FIREMODE)=+0.0923 // 650 RPM
 	InstantHitDamage(DEFAULT_FIREMODE)=57.0 //57
 	
 	// ALT_FIREMODE
-	FireInterval(ALTFIRE_FIREMODE)=+0.096 // 625 RPM
+	FireInterval(ALTFIRE_FIREMODE)=+0.0923 // 650 RPM
 	InstantHitDamage(ALTFIRE_FIREMODE)=57.0 //57
 	
 	WeaponUpgrades.Empty

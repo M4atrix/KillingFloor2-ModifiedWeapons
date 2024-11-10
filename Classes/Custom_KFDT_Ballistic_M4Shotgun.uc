@@ -51,4 +51,6 @@ defaultproperties
 	bCanZedTime=true
 
 	WeaponDef=class'KFWeapDef_M4'
+	ModifierPerkList(0)=class'KFPerk_SWAT'
+	ModifierPerkList(1)=class'KFPerk_Support'
 }

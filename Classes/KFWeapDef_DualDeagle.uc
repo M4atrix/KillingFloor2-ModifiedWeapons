@@ -28,7 +28,7 @@ static function string GetItemCategory()
 DefaultProperties
 {
 	WeaponClassPath="ModifiedWeapons.MW_Pistol_DualDeagle"
-	BuyPrice=1200
+	BuyPrice=1300
 	AmmoPricePerMag=42
 	ImagePath="WEP_UI_Dual_Deagle_TEX.UI_WeaponSelect_DualDeagle"
 	EffectiveRange=50
