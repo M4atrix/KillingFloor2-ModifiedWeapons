@@ -50,7 +50,7 @@ DefaultProperties
 	
 	// DEFAULT_FIREMODE
 	WeaponFireTypes(DEFAULT_FIREMODE)= EWFT_InstantHit //EWFT_Projectile
-	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'CustomWeapons.Custom_KFDT_Ballistic_AF2011'
+	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'ModifiedWeapons.Custom_KFDT_Ballistic_AF2011'
 	
 	// Recoil
 	maxRecoilPitch=650

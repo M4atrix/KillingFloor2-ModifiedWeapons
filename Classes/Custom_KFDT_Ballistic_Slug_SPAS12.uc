@@ -1,13 +1,13 @@
 //=============================================================================
-// KFDT_Ballistic_MB500
+// KFDT_Ballistic_HRG_Stunner
 //=============================================================================
-// Ballistic damage with light impact energy, but stronger hit reactions
+// Damage type class for the HRG Stunner
 //=============================================================================
 // Killing Floor 2
-// Copyright (C) 2015 Tripwire Interactive LLC
+// Copyright (C) 2021 Tripwire Interactive LLC
 //=============================================================================
 
-class Custom_KFDT_Ballistic_SPAS12 extends KFDT_Ballistic_Shotgun
+class Custom_KFDT_Ballistic_Slug_SPAS12 extends KFDT_Ballistic_Submachinegun
 	abstract
 	hidedropdown;
 
@@ -36,19 +36,17 @@ defaultproperties
 	BloodSpread=0.4
 	BloodScale=0.6
 
-	KDamageImpulse=900
-	KDeathUpKick=-500
-	KDeathVel=350
-	//KDamageImpulse=350
-	//KDeathUpKick=120
-	//KDeathVel=10
+	KDamageImpulse=1500 //900
+	KDeathUpKick=-1000 //-500
+	KDeathVel=600 //350
+	GibImpulseScale=1.0
 
-    KnockdownPower=0
-	StumblePower=0
-	GunHitPower=0
-	StunPower=20
-
-	WeaponDef=class'KFWeapDef_SPAS12'
-	ModifierPerkList(0)=class'KFPerk_Swat'
+    StumblePower=35
+    KnockdownPower=25
+    GunHitPower=25
+	
+	//Perk
+	ModifierPerkList(0)=class'KFPerk_SWAT'	
 	ModifierPerkList(1)=class'KFPerk_Support'
+    WeaponDef=class'MW_Shotgun_SPAS12'
 }

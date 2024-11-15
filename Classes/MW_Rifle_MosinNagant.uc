@@ -246,7 +246,7 @@ defaultproperties
 	FiringStatesArray(DEFAULT_FIREMODE)=WeaponSingleFiring
 	WeaponFireTypes(DEFAULT_FIREMODE)=EWFT_InstantHit
 	WeaponProjectiles(DEFAULT_FIREMODE)=class'KFProj_Bullet_MosinNagant'
-	InstantHitDamage(DEFAULT_FIREMODE)=350 //250 -> 275 -> 300 -> 325 -> 350
+	InstantHitDamage(DEFAULT_FIREMODE)=365 //250 -> 275 -> 300 -> 325 -> 350
 	InstantHitDamageTypes(DEFAULT_FIREMODE) = class'KFDT_Ballistic_MosinNagant'
 	FireInterval(DEFAULT_FIREMODE)=0.75 // 60 RPM (85) // 70 RPM (75)
 	Spread(DEFAULT_FIREMODE)=0.007

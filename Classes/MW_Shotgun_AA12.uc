@@ -69,7 +69,7 @@ defaultproperties
 	FiringStatesArray(DEFAULT_FIREMODE)=WeaponFiring
 	WeaponFireTypes(DEFAULT_FIREMODE)=EWFT_Projectile
 	WeaponProjectiles(DEFAULT_FIREMODE)=class'KFProj_Bullet_Pellet'
-	InstantHitDamage(DEFAULT_FIREMODE)=25.0 //25 //20
+	InstantHitDamage(DEFAULT_FIREMODE)=30.0 //25 //20
 	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'Custom_KFDT_Ballistic_AA12Shotgun'
 	PenetrationPower(DEFAULT_FIREMODE)=1.75 //2.0
 	FireInterval(DEFAULT_FIREMODE)=0.2 // 300 RPM
@@ -82,7 +82,7 @@ defaultproperties
 	FiringStatesArray(ALTFIRE_FIREMODE)=WeaponSingleFiring
 	WeaponFireTypes(ALTFIRE_FIREMODE)=EWFT_Projectile
 	WeaponProjectiles(ALTFIRE_FIREMODE)=class'KFProj_Bullet_Pellet'
-	InstantHitDamage(ALTFIRE_FIREMODE)=25.0 //25 //20
+	InstantHitDamage(ALTFIRE_FIREMODE)=30.0 //25 //20 
 	InstantHitDamageTypes(ALTFIRE_FIREMODE)=class'Custom_KFDT_Ballistic_AA12Shotgun'
 	PenetrationPower(ALTFIRE_FIREMODE)=1.75
 	FireInterval(ALTFIRE_FIREMODE)=0.2 // 300 RPM

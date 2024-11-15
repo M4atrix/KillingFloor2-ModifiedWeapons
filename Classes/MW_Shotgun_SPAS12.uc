@@ -57,8 +57,8 @@ defaultproperties
     MuzzleFlashTemplateName="WEP_Spas12_ARCH.Wep_Spas12_MuzzleFlash"
 
 	// DEFAULT_FIREMODE
-	FireModeIconPaths(DEFAULT_FIREMODE)="ui_firemodes_tex.UI_FireModeSelect_ShotgunSingle"
-	FiringStatesArray(DEFAULT_FIREMODE)=WeaponSingleFiring
+	FireModeIconPaths(DEFAULT_FIREMODE)=Texture2D'ui_firemodes_tex.UI_FireModeSelect_ShotgunAuto'
+	FiringStatesArray(DEFAULT_FIREMODE)=WeaponFiring
 	WeaponFireTypes(DEFAULT_FIREMODE)=EWFT_Projectile
 	WeaponProjectiles(DEFAULT_FIREMODE)=class'KFProj_Bullet_Pellet'
 	InstantHitDamage(DEFAULT_FIREMODE)=35.0 ///20
@@ -72,7 +72,14 @@ defaultproperties
 	// ALT_FIREMODE
 	FireModeIconPaths(ALTFIRE_FIREMODE)=Texture2D'ui_firemodes_tex.UI_FireModeSelect_ShotgunSingle'
 	FiringStatesArray(ALTFIRE_FIREMODE)=WeaponSingleFiring
-	WeaponFireTypes(ALTFIRE_FIREMODE)=EWFT_None
+	WeaponFireTypes(ALTFIRE_FIREMODE)=EWFT_Projectile
+	WeaponProjectiles(ALTFIRE_FIREMODE)=class'KFProj_Bullet_Slug_SPAS12' ///bu
+	InstantHitDamage(ALTFIRE_FIREMODE)=120 ///20 ///275 /200
+	InstantHitDamageTypes(ALTFIRE_FIREMODE)=class'Custom_KFDT_Ballistic_Slug_SPAS12'
+	PenetrationPower(ALTFIRE_FIREMODE)=2 //2
+	FireInterval(ALTFIRE_FIREMODE)=0.3 // 265 RPM
+	Spread(ALTFIRE_FIREMODE)=0.001
+	FireOffset=(X=30.0000000,Y=3.0000000,Z=-3.0000000)
 
 	// BASH_FIREMODE
 	InstantHitDamageTypes(BASH_FIREMODE)=class'KFDT_Bludgeon_MB500'
@@ -80,7 +87,7 @@ defaultproperties
 
 	// Fire Effects
 	WeaponFireSnd(DEFAULT_FIREMODE)=(DefaultCue=AkEvent'WW_WEP_Saiga12.Play_WEP_Saiga12_Fire_3P', FirstPersonCue=AkEvent'WW_WEP_Saiga12.Play_WEP_Saiga12_Fire_1P')
-    WeaponFireSnd(ALTFIRE_FIREMODE)=(DefaultCue=AkEvent'WW_WEP_Saiga12.Play_WEP_Saiga12_Alt_Fire_3P', FirstPersonCue=AkEvent'WW_WEP_Saiga12.Play_WEP_Saiga12_Alt_Fire_1P')
+    WeaponFireSnd(ALTFIRE_FIREMODE)=(DefaultCue=AkEvent'WW_WEP_SA_AA12.Play_WEP_SA_AA12_Fire_3P', FirstPersonCue=AkEvent'WW_WEP_SA_AA12.Play_WEP_SA_AA12_Fire_1P')
 
     // using M4 dry fire sound. this is intentional.
 	WeaponDryFireSnd(DEFAULT_FIREMODE)=AkEvent'WW_WEP_SA_M4.Play_WEP_SA_M4_Handling_DryFire'

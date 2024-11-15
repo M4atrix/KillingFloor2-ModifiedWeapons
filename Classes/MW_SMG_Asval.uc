@@ -1,5 +1,16 @@
 class MW_SMG_Asval extends KFWeap_SMGBase;
 
+simulated event SetWeapon()
+{
+	super.SetWeapon();
+	
+	if(GetPerk().class == class'KFPerk_SWAT')
+	{
+		EquipTime = 0.25; // 0.45
+		PutDownTime = 0.25; // 0.33
+		MinFiringPutDownPct = 0.60; // 0.80
+	}
+}
 defaultproperties
 {
 	// Inventory
@@ -25,17 +36,17 @@ defaultproperties
     MuzzleFlashTemplateName="WEP_ASVAL_ARCH.Wep_ASVAL_MuzzleFlash"
 
 	// Ammo
-	MagazineCapacity[0]=50
+	MagazineCapacity[0]=20
 	SpareAmmoCapacity[0]=350
 	InitialSpareMags[0]=2
 	bCanBeReloaded=true
 	bReloadFromMagazine=true
 
 	// Recoil
-	maxRecoilPitch=50
-	minRecoilPitch=50
-	maxRecoilYaw=60
-	minRecoilYaw=-60
+	maxRecoilPitch=40
+	minRecoilPitch=40
+	maxRecoilYaw=50
+	minRecoilYaw=-50
 	RecoilRate=0.0800000
 	RecoilViewRotationScale=0.6000000
 	RecoilMaxYawLimit=400
@@ -53,7 +64,7 @@ defaultproperties
 	FiringStatesArray(DEFAULT_FIREMODE)=WeaponFiring
 	WeaponFireTypes(DEFAULT_FIREMODE)=EWFT_InstantHit
 	WeaponProjectiles(DEFAULT_FIREMODE)=class'KFProj_Bullet_AssaultRifle'
-	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'Custom_KFDT_Ballistic_P90'
+	InstantHitDamageTypes(DEFAULT_FIREMODE)=class'Custom_KFDT_Ballistic_Val'
 	FireInterval(DEFAULT_FIREMODE)=+0.056
 	Spread(DEFAULT_FIREMODE)=0.015
 	InstantHitDamage(DEFAULT_FIREMODE)=36
@@ -64,7 +75,7 @@ defaultproperties
 	FiringStatesArray(ALTFIRE_FIREMODE)=WeaponSingleFiring
 	WeaponFireTypes(ALTFIRE_FIREMODE)=EWFT_InstantHit
 	WeaponProjectiles(ALTFIRE_FIREMODE)=class'KFProj_Bullet_AssaultRifle'
-	InstantHitDamageTypes(ALTFIRE_FIREMODE)=class'Custom_KFDT_Ballistic_P90'
+	InstantHitDamageTypes(ALTFIRE_FIREMODE)=class'Custom_KFDT_Ballistic_Val'
 	FireInterval(ALTFIRE_FIREMODE)=+0.1
 	InstantHitDamage(ALTFIRE_FIREMODE)=36
 	Spread(ALTFIRE_FIREMODE)=0.015
@@ -92,7 +103,7 @@ defaultproperties
 	bHasFlashlight=true
 
 	AssociatedPerkClasses(0)=class'KFPerk_Swat'
-	AssociatedPerkClasses(1)=class'KFPerk_Commando'
+	//AssociatedPerkClasses(1)=class'KFPerk_Commando'
 
 	// Weapon Upgrade stat boosts
 	//WeaponUpgrades[1]=(IncrementDamage=1.14f,IncrementWeight=1)
